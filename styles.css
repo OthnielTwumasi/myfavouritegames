@@ -21,7 +21,7 @@ header{
 img {
     border-radius: 10px;
 }
-.logo{
+.logo, .footlogo{
     font-style: italic;
 }
 
@@ -71,7 +71,7 @@ time{
   font-size: 10px;
 }
 
-p, .game-article>dl, .upcoming ul{
+p, .game-article>dl, .upcoming ul ,.footlogo{
     font-size:20px;
     line-height: 30px;
     color: #bebebe;
@@ -98,3 +98,27 @@ p, .game-article>dl, .upcoming ul{
 .Cyberpunk a:link{
    color:  gray;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
+    margin-top: 5%;
+   
+
+   
+   
+    
+}
+
+footer p{
+    align-self: end;
+    
+}
+
+footer .footlogo{
+    font-size: 20px;
+}
+
+footer *{ margin-top: 0%; padding: 0px; background-color: transparent;}
