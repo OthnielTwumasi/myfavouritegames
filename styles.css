@@ -105,11 +105,7 @@ footer {
     align-items: center;
     margin-bottom: 1%;
     margin-top: 5%;
-   
-
-   
-   
-    
+     
 }
 
 footer p{
@@ -122,3 +118,57 @@ footer .footlogo{
 }
 
 footer *{ margin-top: 0%; padding: 0px; background-color: transparent;}
+
+@media(max-width:600px){
+body{
+    width: 85%;
+}
+
+
+    header {
+        display: block;
+        
+    }
+    .logo{
+        text-align: start;
+        font-size: 20px;
+    }
+
+    .title-main{
+        font-size: 30px;
+        text-align: start;
+    }
+
+    time{
+        display: block;
+        font-size: 15px;
+        text-align: start;
+    }
+
+    .game-article>h2 , .upcoming h2, .conclusion>h2{
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-size: 27px;
+    }
+
+    .game-article dt{
+        margin-bottom: 2%;
+        font-size: 20px;
+    }
+
+    p, .game-article>dl, .upcoming ul ,.footlogo{
+        font-size:17px;
+        line-height: 30px;
+        color: #bebebe;
+        margin-top: 5%;
+    }
+
+
+    footer .footlogo{
+        font-size: 17px;
+    }
+    footer p{
+        font-size: 15px;
+        
+    }
+}
